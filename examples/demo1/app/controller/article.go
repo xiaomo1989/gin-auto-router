@@ -1,8 +1,8 @@
 package controller
 
 import (
-	ginAutoRouter "github.com/dengshulei/gin-auto-router"
 	"github.com/gin-gonic/gin"
+	ginAutoRouter "github.com/xiaomo1989/gin-auto-router"
 	"net/http"
 )
 

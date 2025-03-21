@@ -3,8 +3,8 @@ package router
 import (
 	_ "demo2/app/controller/v1" //一定要导入这个Controller包，用来注册需要访问的方法
 	"demo2/router/middleware/jwt"
-	ginAutoRouter "github.com/dengshulei/gin-auto-router"
 	"github.com/gin-gonic/gin"
+	ginAutoRouter "github.com/xiaomo1989/gin-auto-router"
 )
 
 func InitRouter() *gin.Engine {
